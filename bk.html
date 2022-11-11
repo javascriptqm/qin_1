@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul li{
+				list-style: none;
+			}
+			h4 a{
+				text-decoration: none;
+				color: #000000;
+			}
+			body{
+				background-color: #ccc;
+			}
+			.news{
+				width:972px;
+				height: 806px;
+				background-color: #fff;
+				margin: 0 auto;
+			}
+			.news-title{
+				width: 934px;
+				height: 74px;
+			}
+			.news-title h3{
+				font-size: 24px;
+				float: left;
+				line-height: 60px;
+				font-weight: 400;
+				
+			}
+			.news-title h3 a{
+				color: #000000;
+			}
+			.news-title span{
+				font-size: 18px;
+				color: blue;
+				float: right;
+				line-height: 60px;
+			}
+			.news-center-title{
+				width: 936px;
+				margin: 0 auto;
+			}
+			.ul-1{
+				width: 935px;
+				overflow: hidden;
+			}
+			.li-1{
+				width: 291px;
+				border: 1px solid #ccc;
+				overflow: hidden;
+				float: left;
+			}
+			.li-1 h3{
+				font-size: 19px;
+				margin: 18px 25px 20px 18px;
+			}
+			.li-1 .a1{
+				margin: 0 10px 18px 18px;
+			}
+			.li-1 span{
+				font-size: 17px;
+				color: #ccc;
+				margin-top: 6px;
+				float: left;
+			}
+			.li-1 .a-1{
+				float: left;
+			}
+			.li-1 .a22{
+				float: left;
+			}
+			.li-1 .img1{
+				float: left;
+				margin: 0 10px 17px 18px;
+			}
+			.li-1 .img2{
+				float: left;
+				margin: 9px 6px 0 106px;
+			}
+			.li-1:nth-child(2){
+				margin-left: 26px;
+				margin-right: 26px;
+			}
+			.news-title a{
+				text-decoration: none;
+			}
+			.news-center-bottom{
+				width:934px;
+				float: left;
+				margin: 0 0 0 21px;
+				border-bottom: 1px solid #ccc;
+			}
+			.news-center-bottom .aa-a:hover{
+				color: #32aa66;
+				border-bottom: 1px #32aa66 solid;
+			}
+			.news-center-bottom .aa-b:hover{
+				color: #32aa66;
+				border-bottom: 1px #32aa66 solid;
+			}
+			.news-center-bottom .aa-a{
+				padding: 20px 26px;
+				float: left;
+				font-size: 22px;
+				color: #000000;
+			}
+			.news-center-bottom .aa-b{
+				padding: 20px 26px;
+				float: left;
+				font-size: 22px;
+				color: #000000;
+			}
+			.news-center-bottom a{
+				text-decoration: none;
+			}
+			.ul-2{
+				width: 935px;
+				margin-top: 34px;
+				float: left;
+				margin-left: 18px;
+			}
+			.li-2 h4{
+				font-size: 22px;
+				float: left;
+				margin-bottom: 21px;
+			}
+			.li-2 .spana1{
+				padding: 5px 7px;
+				float: left;
+				font-size: 13px;
+				color: #fff;
+				background-color: #0000FF;
+				border-radius: 5px;
+			}
+			.li-2 .spana2{
+				padding: 5px 7px;
+				float: left;
+				font-size: 13px;
+				color: #fff;
+				background-color: #F2711C;
+				margin-left: 7px;
+				border-radius: 5px;
+			}
+			.li-2 p{
+				width: 903px;
+				float: left;
+				font-size: 17px;
+				color: #000000;
+				
+			}
+			.li-2 .span-bottom-1{
+				float: left;
+				margin-top: 18px;
+				font-size: 17px;
+				margin-right: 17px;
+			}
+			.li-2{
+				float: left;
+			}
+			.span-bottom-1 a{
+				color: #ccc;
+				text-decoration: none;
+			}
+			.li-2 .span-bottom-2{
+				float: left;
+				margin-top: 18px;
+				font-size: 17px;
+				margin-right: 17px;
+			}
+			.span-bottom-2 a{
+				color: #ccc;
+				text-decoration: none;
+			}
+			.li-2 .span-bottom-3{
+				background-image: url(images/001.gif);
+				float: left;
+				margin-top: 21px;
+				background-repeat: no-repeat;
+				padding-left: 28px;
+				margin-right: 16px;
+			}
+			.li-2 .span-bottom-4{
+				float: left;
+				margin-top: 21px;
+				background-image: url(images/002.gif);
+				background-repeat: no-repeat;
+				padding-left: 28px;
+				margin-right: 18px;
+			}
+			.li-2 .span-bottom-5{
+				float: left;
+				margin-top: 21px;
+				background-image: url(images/003.gif);
+				background-repeat: no-repeat;
+				padding-left: 28px;
+			}
+			.li-2:nth-child(2){
+				margin-top: 52px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="news">
+			<div class="news-center-title">
+			<div class="news-title">
+				<h3><a href="#">精彩博客</a></h3>
+				<span><a href="#">更多</a></span>
+			</div>
+			<ul class="ul-1">
+				<li class="li-1">
+					<a href="#">
+					<img src="images/精彩博客_03.gif" />
+					</a>
+					<h3>"一学就会，一做就废"微服务<br>的架构模式：一个服务一个...</h3>
+					<img src="images/精彩博客_07.gif" class="img1"/><span>四元外</span><img src="images/精彩博客_10.gif" class="img2" /><span class="span111">12</span>
+				</li>
+				<li class="li-1">
+					<a href="#">
+					<img src="images/精彩博客_03.gif" />
+					</a>
+					<h3>"一学就会，一做就废"微服务<br>的架构模式：一个服务一个...</h3>
+					<img src="images/精彩博客_07.gif" class="img1"/><span>四元外</span><img src="images/精彩博客_10.gif" class="img2" /><span class="span111">12</span>
+				</li>
+				<li class="li-1">
+					<a href="#">
+					<img src="images/精彩博客_03.gif" />
+					</a>
+					<h3>"一学就会，一做就废"微服务<br>的架构模式：一个服务一个...</h3>
+					<img src="images/精彩博客_07.gif" class="img1"/><span>四元外</span><img src="images/精彩博客_10.gif" class="img2" /><span class="span111">12</span>
+				</li>
+			</ul>
+			</div>
+			<div class="news-center-bottom">
+				<a href="#" class="aa-a">最新推荐</a>
+				<a href="#" class="aa-b">每日一搏</a>
+			</div>
+			<ul class="ul-2">
+				<li class="li-2">
+					<h4><a href="#">如何在控制台中集成AutoFac,一文搞懂！</a></h4><span class="spana1">原</span><span class="spana2">荐</span>
+					<p>引言&nbsp;首先声明，
+						本文使用的.NetCore版本是3.0以上，
+						有使用后感觉不一致的同学请首先检查自己的版本问题。
+						场景说明：NetCore的很多轮子和案例是基于NetCoreWeb的，
+						毕竟Web的应用场景比较多，...</p>
+					<span class="span-bottom-1"><a href="#">三十三重天</a></span>
+					<span class="span-bottom-2"><a href="#">昨天15：39</a></span>
+					<span class="span-bottom-3">1.5k</span><span class="span-bottom-4">0</span>
+					<span class="span-bottom-5">1</span>
+				</li>
+				<li class="li-2">
+					<h4><a href="#">如何在控制台中集成AutoFac,一文搞懂！</a></h4><span class="spana1">原</span><span class="spana2">荐</span>
+					<p>引言&nbsp;首先声明，
+						本文使用的.NetCore版本是3.0以上，
+						有使用后感觉不一致的同学请首先检查自己的版本问题。
+						场景说明：NetCore的很多轮子和案例是基于NetCoreWeb的，
+						毕竟Web的应用场景比较多，...</p>
+					<span class="span-bottom-1"><a href="#">三十三重天</a></span>
+					<span class="span-bottom-2"><a href="#">昨天15：39</a></span>
+					<span class="span-bottom-3">1.5k</span><span class="span-bottom-4">0</span>
+					<span class="span-bottom-5">1</span>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
